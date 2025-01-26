@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Jeko";
+  src: url("https://your-cdn-link-to-jeko-font/Jeko-Regular.woff2")
+      format("woff2"),
+    url("https://your-cdn-link-to-jeko-font/Jeko-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Jeko", sans-serif;
+  background-color: #dddddd;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Jeko", sans-serif;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+/* navaigation */
+.Navabr ul {
+  display: flex;
+  list-style: none;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.Navabr li {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  padding-right: 1rem;
+}
+.btn-1 {
+  border: none;
+  background-color: #eafd63;
+  border-radius: 20px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  color: #000;
+}
+.btn-2 {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 0.5rem 2rem 0.4rem 2rem;
+}
+
+/* heroo sections */
+.hero-container {
+  display: flex;
+}
+.heroDetails {
+  margin: 2rem 0rem 0rem 8rem;
+}
+.heroDetails h1 {
+  margin-bottom: 1.2rem;
+}
+.detail-1 {
+  display: inline-block;
+  background-color: #eafd63;
+  color: #000;
+  border-radius: 12px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-bottom: 1rem;
+}
+.detail-2 {
+  color: #000;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.heroDetails button {
+  border: none;
+  background-color: #eafd63;
+  border-radius: 10px;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  color: #ffffff;
+  background-color: #0c2939;
+  margin-bottom: 2rem;
+}
+
+.card-1 {
+  display: flex;
+  position: relative;
+  right: 36rem;
+  top: 2rem;
+  width: 14rem;
+  border-radius: 10px;
+  padding: 0.5rem 0rem 0rem 0.5rem;
+  background-color: #ffffff;
+  height: 5rem;
+}
+.card-1 img {
+  width: 3rem;
+  margin-right: 10px;
+}
+.card-1 p {
+  font-size: 0.5rem;
+  font-weight: 300;
+  color: #313131;
+}
+.card-1 h6 {
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #313131;
+  margin-top: 0.1rem;
+}
+.fa.checked {
+  color: #ffa825;
+  font-size: 0.5rem;
+}
+
+.card-2 {
+  display: flex;  
+  position: relative;
+  right: 40rem;
+  top: 3rem;
+  width: 14rem;
+  border-radius: 10px;
+  padding: 0.5rem 0rem 0rem 0.5rem;
+  background-color: #ffffff;
+  height: 5rem;
+}
+.card-2 img {
+  width: 3rem;
+  margin-right: 10px;
+}
+.card-2 p {
+  font-size: 0.5rem;
+  font-weight: 300;
+  color: #313131;
+}
+.card-2 h6 {
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #313131;
+  margin-top: 0.1rem;
+}
+.fa.checked {
+  color: #ffa825;
+  font-size: 0.5rem;
+}
+.cuple-img {
+  border-radius: 1.5rem;
+  width: 20rem;
+  height: 36rem;
+  margin-left: 1rem;
+}
+ /* search specialist */
+.Search-Specialities h1 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.Search-Deatils {
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eafd63;
+  padding: 1rem 8rem 1rem 4rem;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+}
+.Search-Deatils p {
+  margin-right: 4rem;
+}
+.Search-Deatils h3 {
+  font-size: 0.6rem;
+  color: black;
+}
+.Search-Deatils h3 div {
+  font-size: 0.6rem;
+  color: #0c2939;
+}
+
+.fa.Search-btn{
+  background-color: white;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 50%;
+  font-size: 0.6rem;
+}
+.others-activites{
+  padding: 0.1rem 1.5rem 1.5rem 1.5rem;
+  background-color: white;
+  border-radius: 1.2rem;
+}
+.fa-solid{
+  font-size: 1.5rem;
+  color: #8A8A8A;
+}
+.sports-logos{
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+}
+.logos-details{
+  text-align: center;
+}
+.logos-details i{
+  text-align: center;
+  color: #8A8A8A;
+}
+.logos-details p{
+  text-align: center;
+  color: #8A8A8A;
+  font-size: 0.6rem;
+}
+.fa-chevron-right{
+  font-size: 0.6rem;
+  background-color: #eafd63;
+  border-radius: 20px;
+  color: #000;
+  padding: 0.8rem;
+}
+hr{
+  margin-top: 1rem;
+}
